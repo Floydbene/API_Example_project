@@ -13,6 +13,8 @@ const SearchForm = () => {
   return (
     <section>
       <h1 className='title'>Images from Unsplash API</h1>
+      <br></br>
+      <h4 className='title'>Configured and uploaded by Floyd Benedikter</h4>
       <form className='search-form' onSubmit={handleSubmit}>
         <input
           type='text'
